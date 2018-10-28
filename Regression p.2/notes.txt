@@ -1,0 +1,9 @@
+Regression Intro p.2
+
+Enter into command prompt: py -m pip install <<argument>>
+1. py -m pip install sklearn
+2. py -m pip install quandl
+3. py -m pip install pandas
+Regression: Find the line of best fit of our data
+
+Features and Labels
