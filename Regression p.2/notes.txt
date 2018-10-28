@@ -6,4 +6,28 @@ Enter into command prompt: py -m pip install <<argument>>
 3. py -m pip install pandas
 Regression: Find the line of best fit of our data
 
-Features and Labels
+Feature:
+
+In Machine Learning feature means a property of your training data. Or you can say a column name in your training dataset.
+
+Suppose this is your training dataset
+
+Height   Sex   Age
+ 61.5     M     20
+ 55.5     F     30
+ 64.5     M     41
+ 55.5     F     51
+ .     .     .
+ .     .     .
+ .     .     .
+ .     .     .
+
+ Then here Name , Sex and Age are the features.
+
+Label :
+
+The output you get from your model after training it, is called label.
+
+Suppose you fed above dataset to some algorithm and generates a model to predict gender as Male or Female, In the above model you pass features like age, height etc.
+
+So after computing it will return the gender as Male or Female. Thats called a Label
